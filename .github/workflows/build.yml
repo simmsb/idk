@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     container:
-      image: zmkfirmware/zmk-build-arm:2.5
+      image: zmkfirmware/zmk-build-arm:3.0
     strategy:
       fail-fast: false
       matrix:
